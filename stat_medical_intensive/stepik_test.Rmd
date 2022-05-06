@@ -1,0 +1,6 @@
+```{r}
+path = 'https://stepic.org/media/attachments/lesson/11481/evals.csv'
+df <- read.csv(path)
+head(df)
+```
+
