@@ -2,7 +2,8 @@
 library(ggplot2)
 ```
 
-[https://www.youtube.com/watch?v=KT-ISQwFJmU&list=PLu5flfwrnSD5d02G9YJcDv30Fp5_70-sI&index=2]
+[Первая часть]('https://www.youtube.com/watch?v=KT-ISQwFJmU&list=PLu5flfwrnSD5d02G9YJcDv30Fp5_70-sI&index=2')   
+[Вторая часть]('https://www.youtube.com/watch?v=KT-ISQwFJmU&list=PLu5flfwrnSD5d02G9YJcDv30Fp5_70-sI&index=2')
 
 ```{r}
 df <- data.frame(y_weight_kg = c(60,70,80),
@@ -17,9 +18,7 @@ model.fix <- mean(df$y_weight_kg)
 model.fix
 ```
 
-
 ```{r}
 model.lm <- lm(data=df, y_weight_kg~x_height_cm)
 print(coef(model.lm), digits = 3)
 ```
-
