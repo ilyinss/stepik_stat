@@ -2,7 +2,7 @@
 library(ggplot2)
 ```
 
-[Первая часть]('https://www.youtube.com/watch?v=KT-ISQwFJmU&list=PLu5flfwrnSD5d02G9YJcDv30Fp5_70-sI&index=2')   
+[Первая часть]('https://www.youtube.com/watch?v=KT-ISQwFJmU&list=PLu5flfwrnSD5d02G9YJcDv30Fp5_70-sI&index=2')\
 [Вторая часть]('https://www.youtube.com/watch?v=KT-ISQwFJmU&list=PLu5flfwrnSD5d02G9YJcDv30Fp5_70-sI&index=2')
 
 ```{r}
